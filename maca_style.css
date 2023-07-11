@@ -1,4 +1,3 @@
-<style id="page-skin-1" type="text/css"><!--
 /*
 -----------------------------------------------
 Blogger Template Style
@@ -148,7 +147,7 @@ padding-left: 0px;
 ALL: Gray Theme
 =================== */
 .header-container {
-background: url(//4.bp.blogspot.com/-ojL7wBm7XTE/VsIrLVYgZlI/AAAAAAAACCg/qHfHzOuZwKw/s000/bk_header.png);
+background: url(../ComandosTerminal/images/bk_header.png);
 }
 .subheader-container {
 }
@@ -238,7 +237,7 @@ width:          14px;
 height:         14px;
 text-indent:    -999em;
 overflow:       hidden;
-background:     url('//2.bp.blogspot.com/-_UHC1HsaT0s/VsIrLu0g93I/AAAAAAAACCk/SKwUhSInTxE/s000/sub-indicator.png') no-repeat; /* 8-bit indexed alpha png. IE6 gets solid image only */
+background:     url('../ComandosTerminal/images/sub-indicator.png') no-repeat; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 top:            -0.1em;
@@ -378,7 +377,7 @@ float: left;
 width: 20px;
 height: 20px;
 margin-top:2px;
-background: url(//4.bp.blogspot.com/-rg3sYr44E8Y/VsIrL9Aew-I/AAAAAAAACCo/9QCNKrJBFRA/s000/social.png) no-repeat;
+background: url(../ComandosTerminal/images/social.png) no-repeat;
 text-indent: -999em;
 }
 .social li a.linkedin {
@@ -426,7 +425,7 @@ width: 190px;
 #searchform input#searchsubmit {
 float: right;
 width: 24px;
-background: url(//3.bp.blogspot.com/-m3FeKfajM7U/VsIrL1a1XcI/AAAAAAAACCs/Ok1p-SPVOOs/s000/searchsubmit.gif) no-repeat;
+background: url(../ComandosTerminal/images/searchsubmit.gif) no-repeat;
 }
 header .meta {
 color: #79796A;
@@ -446,7 +445,7 @@ border-right:0;
 header .meta li .comments {
 float: left;
 padding-left: 20px;
-background: url(//2.bp.blogspot.com/-k8mCZ2ebZLQ/VsIrMN9DGbI/AAAAAAAACCw/zQXvdZqhCtg/s000/comments.png) no-repeat 0 7px;
+background: url(../ComandosTerminal/images/comments.png) no-repeat 0 7px;
 margin:0px;
 }
 header .meta li .comments a {
@@ -454,7 +453,7 @@ text-decoration: none;
 }
 header .meta li .tags {
 padding-left: 20px;
-background: url(//4.bp.blogspot.com/--2wiZ6fC7FI/VsIrMap3JII/AAAAAAAACC0/k_fGAtdDp1c/s000/tags.png) no-repeat 0 4px;
+background: url(../ComandosTerminal/images/tags.png) no-repeat 0 4px;
 }
 .blog-thumb {
 float: left;
@@ -492,7 +491,7 @@ margin-bottom: 3%;
 .more-link {
 color: #000000;
 padding-right: 25px;
-background: url(//2.bp.blogspot.com/-P3TiXgdGUHw/VsIrMt4BnhI/AAAAAAAACC4/WqrvtTWOFus/s000/continue.png) no-repeat right 3px;
+background: url(../ComandosTerminal/images/continue.png) no-repeat right 3px;
 text-decoration: none;
 font-weight: bold;
 }
@@ -518,7 +517,7 @@ margin: 0 0 1em -30px;
 position: relative;
 padding-left: 30px;
 font-size: 1em;
-background: url(//2.bp.blogspot.com/-Yz3Q2qdSFuE/VsIrM_TNsUI/AAAAAAAACC8/P-NEBArRfNg/s000/widget_title.png) no-repeat 0 4px;
+background: url(../ComandosTerminal/images/widget_title.png) no-repeat 0 4px;
 }
 .column-two .sidebar .widget h2 {
 color: #212121;
@@ -528,7 +527,7 @@ margin: 0 0 1em -30px;
 position: relative;
 padding-left: 30px;
 font-size: 1em;
-background: url(//2.bp.blogspot.com/-Yz3Q2qdSFuE/VsIrM_TNsUI/AAAAAAAACC8/P-NEBArRfNg/s000/widget_title.png) no-repeat 0 4px;
+background: url(../ComandosTerminal/images/widget_title.png) no-repeat 0 4px;
 float:none !important;
 }
 .column-two ul, .sidebar-footer ul {
@@ -549,7 +548,7 @@ text-decoration: none;
 .call_to_action {
 width: 100%;
 height: 140px;
-background-image: url(//4.bp.blogspot.com/-ojL7wBm7XTE/VsIrLVYgZlI/AAAAAAAACCg/qHfHzOuZwKw/s000/bk_header.png);
+background-image: url(../ComandosTerminal/images/bk_header.png);
 line-height: 140px;
 text-align: center;
 color: #00BFFF;
@@ -580,14 +579,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', e
 }
 .thanks {
 background: #F2F3F6;
-background: url('//1.bp.blogspot.com/-DdQkCq8rESo/VsIrNIZvPwI/AAAAAAAACDA/qOcn6s7VpjY/s000/ok.png') no-repeat left 1px;
+background: url('../ComandosTerminal/images/ok.png') no-repeat left 1px;
 padding-left:20px;
 clear: both;
 margin-top: 30px;
 }
 .error {
 color: #333;
-background: #FCE2D4 url('//4.bp.blogspot.com/-_y3zd4EArCY/VsIrNVu5WBI/AAAAAAAACDE/hwkKqXjpQv4/s000/error.png') no-repeat 5px 50%;
+background: #FCE2D4 url('../ComandosTerminal/images/error.png') no-repeat 5px 50%;
 margin-top: 5px;
 display:block;
 clear: both;
@@ -1363,7 +1362,7 @@ background-color: #ffffff;
 border: 1px dashed #eeeeee;
 }
 .avatar-image-container {
-background: url(http: http://3.bp.blogspot.com/-uJBK6lebUrA/VsIrNiDMhgI/AAAAAAAACDI/ugSS8yybQAU/s000/comment-avatar.jpg);
+background: url(http:../ComandosTerminal/images/comment-avatar.jpg);
 width: 32px;
 height: 32px;
 float: right;
@@ -1428,7 +1427,7 @@ margin: 0.5em 0;
 line-height: 1.6em;
 }
 .avatar-image-container {
-background: url(http:http://3.bp.blogspot.com/-uJBK6lebUrA/VsIrNiDMhgI/AAAAAAAACDI/ugSS8yybQAU/s000/comment-avatar.jpg);
+background: url(http:/ComandosTerminal/images/comment-avatar.jpg);
 width: 32px;
 height: 32px;
 float: right;
@@ -1461,5 +1460,3 @@ margin-bottom:5px;
 .reaction-buttons table, .reaction-buttons td{
 border:none;
 }
-
---></style>
