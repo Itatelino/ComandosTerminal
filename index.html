@@ -487,38 +487,78 @@
                         <h3>Comandos importantes no Terminal</h3>
                         <p>Vamos conhecer comandos essencias para sua rotina usando o terminal <strong>Windows</strong></p>
                         <p>Um detalhe importante: O prompt de comando <strong>CMD Windowss</strong>, também conhecido como <strong>CMD</strong>, é um recurso nativo do sistema operacional Windows que nos auxilia a interagir com o sistema operacional através de comandos de texto simples. Vamos explorar os principais comandos no CMD.</p>
+                        <h3>Como usar o <strong>CMD</strong>?</h3>
+                        <p>A princípio para executar o CMD, digite "cmd" na barra de pesquisa do Windows e pressione Enter. <br>
+                          Ao abrir uma janela do CMD, é possível digitar comandos. Para executar um comando, basta digitar o nome do comando na linha de comando e pressionar Enter.</p>
                       </div>
                     </header>
                     <section>
                       <div>
                         <h4>Comandos CMD no windows</h4>
                           <ol>
-                            <li>pcpnfig ou ipconfig /all</li>
-                            <ol>
+
+                            <li>ipcpnfig ou ipconfig /all<</li>
+                            <ul>
                               <li>Auxiliar verificar a placa de rede do roteador.</li>
-                            </ol>
+                            </ul>
                             <li>ipconfig /flushdns</li>
-                            <ol>
+                            <ul>
                               <li>Limpar cache DNS</li>
-                            </ol>
+                            </ul>
                             <li>ciper/w:  --em seguida a letra da unidade que deseja excluir defitivamente, no caso, por exemplo-- f:</li>
-                            <ol>
-                              <li> Esse comando faz exlusão irreversível de arquivos que foram excluídos da lixeira mas não foram removidos do computador e poderá ser recuperado.</li>
-                            </ol>
+                            <ul>
+                              <li>Este comando faz exlusão irreversível de arquivos que foram excluídos da lixeira mas não foram removidos do computador e poderá ser recuperado.</li>
+                            </ul>
                             <li>dism /online cleanup-image /restorehealth <br>
                                 dism /online cleanuo-image /CheckHealth <br>
                                   sfc /scannow </li>
-                            <ol>
+                            <ul>
                               <li>Corrigir quedas de FPS</li>
-                            </ol>
-                            <li> dir</li>
-                            <ol>
+                            </ul>
+                            <li>dir</li>
+                            <ul>
                               <li>Usado para exibir uma lista de arquivos e pastas no diretório atual.</li>
-                            </ol>
+                            </ul>
                              <li>dir /od</li>
-                             <ol>
+                             <ul>
                               <li>Exibir uma lista de arquivos e pastas no diretório atual, ordenados por data de modificação</li>
-                             </ol>
+                             </ul>
+                             <li>Sfc</li>
+                             <p>Usado para verificar e restaurar arquivos do sistema Windows</p>
+                             <ul>
+                              <li>sfc/scannow: Verifica e repara arquivos do sistema Windows.</li>
+                              <li>sfc/verifyonly: Verifica arquivos protegidos do sistema.</li>
+                             </ul>
+                             <li>Taskkill</li>
+                             <p>Esse comando tem a funçaõ de finalizar um processo em execução no sistema.</p>
+                             <ul>
+                              <li>taskkill /IM nome_do_processo.exe :É possível finalizar um processo pelo nome.</li>
+                              <li>taskkill /PID 1234 :É possível finalizar um processo por ID.</li>
+                             </ul>
+                             <li>Netstat</li>
+                             <p>Este comando é usado para exibir informações sobre as conexões de rede ativas e estatísticas.</p>
+                             <ul>
+                              <li>netstat -a :Exibe todas as conexões TCP ativas.</li>
+                              <li>netstat -u :Exibe todas as conexões UDP ativas.</li>
+                             </ul>
+                             <li>nslookup</li>
+                             <p>Usado para pesquisar informações de DNS, como endereços IP e nomes de host.</p>
+                             <ul>
+                              <li>nslookup www.exemplo.com :Obter informações sobre um nome de domínio, incluindo endereços IP.</li>
+                              <li>nslookup 192.168.1.1 :Obter informações sobre um endereço IP, incluindo nomes de domínio.</li>
+                             </ul>
+                             <li>mkdir</li>
+                             <p>Ese comando cria um novo diretório</p>
+                             <ul>
+                              <li>mkdir Novo diretório :Cria um novo diretório chamado "Novo diretório" no diretório atual.</li>
+                              <li>mkdir C:\Pasta1\Pasta2\Novo diretório :Criar um novo diretório e todos os diretórios intermediários necessários.</li>
+                             </ul>
+                             <li>cipher</li>
+                             <p>Usado para criptografar ou descriptografar arquivos e pastas.</p>
+                             <ul>
+                              <li>cipher C:\Arquivo.txt :Exibe informações de criptografia para um arquivo ou diretório.</li>
+                              <li>cipher /w:C:\Diretório :Exclui dados criptografados de um arquivo ou diretório.</li>
+                             </ul>
                         
                       </div>
                     </section>
